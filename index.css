@@ -1,0 +1,177 @@
+body{
+    background-color: #FAFAFA;
+}
+.card-box{
+    background-color: #FAFAFA;
+}
+.card-text{
+    color: #8e8e8e;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Arial Unicode MS;
+}
+.input-width{
+    /* width: 300px; */
+    padding: 8px 8px;
+    background-color:   #FAFAFA !important;
+    border: 1px solid #8e8e8e !important;
+    outline: none !important;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 500;
+}
+.input-width:focus{
+    border: 2px solid #8e8e8e !important;
+    outline: 2px solid #FAFAFA !important;
+}
+.input-btn{
+    background-color:#0095F6;
+    padding: 4px 4px;
+    outline: none;
+    border-radius: 5px;
+    border: none !important;
+    font-family: Calibri (Body);
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+.instagram{
+    font-family: Brush Script MT;
+    font-size: 50px;
+}
+/* styling for navbar */
+a.brand{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Brush Script MT;
+    text-decoration: none;
+    color: black;
+    /* font-size: 50px; */
+}
+a.d-icons{
+    font-size: 25px;
+    /* font-weight: 500; */
+    /* font-family: Brush Script MT; */
+    text-decoration: none;
+    color: black;
+}
+.img-user img{
+    width: 40px;
+    height: 5.1vh;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+/* mainusers darshborad styling */
+.uu{
+    /* font-size: 25px; */
+    color: #2221219c;
+    font-size: 30px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.user-img img{
+    border-radius: 100%;
+    /* border: 1px solid black; */
+    /* background-image: url(img/img_avatar1.png); */
+    /* background-size: cover; */
+    
+}
+.users-name{
+    font-size: 20px;
+    
+}
+.bio-users{
+    font-size: 17px;
+    color: #949494;
+}
+.post{
+    font-size: 20px;
+    /* font-family: Brush Script MT; */
+    color: black;
+    font-weight: 600;
+    /* letter-spacing: 3px; */
+}
+a.select-pill{
+    color: grey !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+a.select-pill:focus{
+    font-weight: 600;
+}
+/* styling for edit page */
+.input-edit{
+    padding: 4px 4px;
+    outline: none !important;
+    border: 1px solid black !important;
+    border-radius: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 19px;
+    color: black;
+}
+.input-edit:focus{
+    border: 1px solid black !important;
+    outline: 1px solid black !important;
+    border-radius: 3px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn-profile{
+    border: none;
+    color: #1EA1F7;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    /* cursor: pointer; */
+  }
+  .btn-profile:hover{
+      cursor: pointer;
+  }
+  .upload-btn-wrapper input[type=file] {
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  /* for post */
+  /* .icons-eyes{
+      display: none;
+      position: absolute;
+  } */
+  .img{
+    position: relative;
+    color: black;
+    /* height: 5%; */
+    /* width: 140%; */
+    /* height: 30vh; */
+    opacity: 0.7;
+    position: relative;
+ }
+ .img:hover{
+    /* background-color: rgba(179, 11, 11, 0.493); */
+    opacity: 1;
+    /* display: block; */
+ }
+/* .postimg-overlay{
+    position: absolute; 
+    width: 50px;
+    height: auto;
+    top: 0%;
+    text-align: center; 
+    color: antiquewhite; 
+    background: rgba(0, 0, 0, 0.596);
+    transition: 1s;
+    opacity: 0;
+    padding-top: 25%;
+    height: 100px;
+}
+.postimg-overlay:hover{
+    opacity: 1.2;
+} */
